@@ -236,7 +236,13 @@ a { text-decoration: none; color: inherit; }
 .card:hover { transform: scale(1.04); box-shadow: var(--shadow); }
 
 /* Video card */
-.video-card { width: clamp(180px, 22vw, 280px); }
+.video-card { width: clamp(220px, 28vw, 360px); }
+
+.video-card .thumb {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
 
 .video-card .thumb {
   width: 100%;
@@ -458,7 +464,7 @@ a { text-decoration: none; color: inherit; }
 #video-modal.open { display: flex; }
 
 .video-modal-inner {
-  width: min(90vw, 900px);
+  width: min(92vw, 1100px);
   aspect-ratio: 16/9;
   position: relative;
   border-radius: var(--radius);
