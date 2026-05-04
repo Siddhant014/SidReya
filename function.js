@@ -14,7 +14,7 @@ toggleBtn.addEventListener('click', () =>
 
 /* ── HELPERS ── */
 const driveThumb = id => `https://drive.google.com/thumbnail?id=${id}&sz=w400`;
-const driveImg   = id => `https://drive.google.com/uc?export=view&id=${id}`;
+const driveImg   = id => `https://lh3.googleusercontent.com/d/${id}`;
 
 function placeholder() {
   const d = document.createElement('div');

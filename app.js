@@ -30,7 +30,7 @@ document.getElementById('footer-date').textContent = CONFIG.weddingDate;
 const driveThumb = id =>
   `https://drive.google.com/thumbnail?id=${id}&sz=w400`;
 const driveImg = id =>
-  `https://drive.google.com/uc?export=view&id=${id}`;
+  `https://lh3.googleusercontent.com/d/${id}`;
 const ytThumb = id =>
   `https://img.youtube.com/vi/${id}/hqdefault.jpg`;
 
