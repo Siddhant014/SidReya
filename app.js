@@ -181,20 +181,20 @@ function buildFunctionBlocks() {
 
     // Video card first
     if (fn.youtubeVideoId && fn.youtubeVideoId !== 'YOUTUBE_VIDEO_ID') {
-      const vc = document.createElement('div');
-      vc.className = 'card photo-card';
-      vc.style.position = 'relative';
-      vc.innerHTML = `
-        <img class="thumb" src="${ytThumb(fn.youtubeVideoId)}"
-          alt="${fn.name} video"
-          style="width:100%;aspect-ratio:3/4;object-fit:cover;"
-          onerror="this.style.background='var(--bg-secondary)'" />
-        <div class="play-icon" style="opacity:1;font-size:2rem;">▶</div>
-        <div class="card-label" style="position:absolute;bottom:0;left:0;right:0;
-          padding:0.6rem;color:#fff;background:linear-gradient(transparent,rgba(0,0,0,0.7));
-          font-size:0.85rem;">▶ Play Video</div>`;
-      vc.addEventListener('click', () => openVideo(fn.youtubeVideoId));
-      row.appendChild(vc);
+    const vc = document.createElement('div');
+    vc.className = 'card photo-card';
+    vc.style.position = 'relative';
+    vc.innerHTML = `
+      <img class="thumb" src="${ytThumb(fn.youtubeVideoId)}"
+        alt="${fn.name} video"
+        style="width:100%;aspect-ratio:3/4;object-fit:cover;"
+        onerror="this.style.background='var(--bg-secondary)'" />
+      <div class="play-icon" style="opacity:1;font-size:2rem;">▶</div>
+      <div class="card-label" style="position:absolute;bottom:0;left:0;right:0;
+        padding:0.6rem;color:#fff;background:linear-gradient(transparent,rgba(0,0,0,0.7));
+        font-size:0.85rem;">▶ Play Video</div>`;
+    vc.addEventListener('click', () => openVideo(fn.youtubeVideoId));
+    row.appendChild(vc);
     }
 
     // Featured photo cards
