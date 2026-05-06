@@ -237,11 +237,15 @@ a { text-decoration: none; color: inherit; }
 .card:hover { transform: scale(1.04); box-shadow: var(--shadow); }
 
 /* Video card */
-.video-card { width: clamp(180px, 28vw, 360px); }
+.video-card {
+  width: clamp(180px, 22vw, 280px);
+  aspect-ratio: 16/9;
+  position: relative;
+}
 
 .video-card .thumb {
   width: 100%;
-  aspect-ratio: 16/9;
+  height:100%;
   object-fit: cover;
   background: var(--bg-secondary);
   display: block;
