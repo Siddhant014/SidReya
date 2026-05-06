@@ -188,15 +188,12 @@ a { text-decoration: none; color: inherit; }
 .view-all-link:hover { border-color: var(--accent); }
 
 /* ── HORIZONTAL SCROLL ROW ── */
-.scroll-row-wrap {
-  position: relative;
-  margin: 0 4%;
-}
+.scroll-row-wrap { position: relative; }
 
 .scroll-row {
   display: flex;
   gap: 0.75rem;
-  padding: 0.5rem 0;
+  padding: 0.5rem 4%;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
@@ -223,8 +220,8 @@ a { text-decoration: none; color: inherit; }
   justify-content: center;
 }
 .scroll-btn:hover { background: var(--accent); border-color: var(--accent); color: #000; }
-.scroll-btn.left { left: 0.2%; }
-.scroll-btn.right { right: 0.2%; }
+.scroll-btn.left { left: 0.5%; }
+.scroll-btn.right { right: 0.5%; }
 
 /* ── CARDS ── */
 .card {
