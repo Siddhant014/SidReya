@@ -223,8 +223,8 @@ a { text-decoration: none; color: inherit; }
   justify-content: center;
 }
 .scroll-btn:hover { background: var(--accent); border-color: var(--accent); color: #000; }
-.scroll-btn.left { left: -10%; }
-.scroll-btn.right { right: -10px; }
+.scroll-btn.left { left: -5px; }
+.scroll-btn.right { right: -5px; }
 
 /* ── CARDS ── */
 .card {
