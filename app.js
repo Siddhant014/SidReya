@@ -179,21 +179,6 @@ function buildFunctionBlocks() {
     const row = document.getElementById(rowId);
     const photos = []; // full-res URLs for lightbox
 
-    // Video card first
-    if (fn.youtubeVideoId && fn.youtubeVideoId !== 'YOUTUBE_VIDEO_ID') {
-    const vc = document.createElement('div');
-    vc.className = 'card video-card';
-    vc.style.aspectRatio = '3/4';
-    vc.innerHTML = `
-      <img class="thumb" src="${ytThumb(fn.youtubeVideoId)}"
-        alt="${fn.name} video"
-        onerror="this.style.background='var(--bg-secondary)'" />
-      <div class="play-icon">▶</div>
-      <div class="card-label">▶ Play Video</div>`;
-    vc.addEventListener('click', () => openVideo(fn.youtubeVideoId));
-    row.appendChild(vc);
-    }
-
     // Featured photo cards
     fn.featuredPhotoIds.forEach((id, i) => {
       if (!id || id.startsWith('DRIVE_FILE_ID')) return;
