@@ -55,8 +55,8 @@ const CONFIG = {
       id: "shaadi",
       name: "Shaadi",
       emoji: "📷",
-      youtubeVideoId: "YOUTUBE_VIDEO_ID",
-      driveFolderId: "folders/167l4XVSOlMxFFExj-e1lx0Xb9Y6GWqPN",
+      youtubeVideoId: "9Baoius7ZvY",
+      driveFolderId: "167l4XVSOlMxFFExj-e1lx0Xb9Y6GWqPN",
       featuredPhotoIds: [
         "DRIVE_FILE_ID_1",
         "DRIVE_FILE_ID_2",
