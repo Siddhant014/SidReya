@@ -13,10 +13,10 @@ const CONFIG = {
       youtubeVideoId: "sbHlzMOgCmc",
       driveFolderId: "1pn8n0j1FbFLzK_vzPoYdduLvh8WwJoKB",
       featuredPhotoIds: [
-        "DRIVE_FILE_ID_1",
-        "DRIVE_FILE_ID_2",
-        "DRIVE_FILE_ID_3",
-        "DRIVE_FILE_ID_4",
+        "1O1NU9BdxjnfAVJ89AnZd2IQmnGfTturd",
+        "1rDG60LrOooSGA9yc-xvn5lmEpOCFUorx",
+        "1ojDq0mf6ci3zY_PlQ7dTnW816bWEMvww",
+        "1A2FCmVYB99zDTLdf_ZSLrXsuQ0SWbtqm",
         "DRIVE_FILE_ID_5",
         "DRIVE_FILE_ID_6"
       ]
