@@ -190,13 +190,13 @@ a { text-decoration: none; color: inherit; }
 /* ── HORIZONTAL SCROLL ROW ── */
 .scroll-row-wrap {
   position: relative;
-  margin: 0 40px;
+  margin: 0 4%;
 }
 
 .scroll-row {
   display: flex;
   gap: 0.75rem;
-  padding: 0.5rem 4%;
+  padding: 0.5rem 0;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
@@ -223,8 +223,8 @@ a { text-decoration: none; color: inherit; }
   justify-content: center;
 }
 .scroll-btn:hover { background: var(--accent); border-color: var(--accent); color: #000; }
-.scroll-btn.left { left: 0px; }
-.scroll-btn.right { right: 0px; }
+.scroll-btn.left { left: 0.2%; }
+.scroll-btn.right { right: 0.2%; }
 
 /* ── CARDS ── */
 .card {
