@@ -27,7 +27,7 @@ document.getElementById('footer-names').textContent =
 document.getElementById('footer-date').textContent = CONFIG.weddingDate;
 
 /* ── TEASER SECTION ── */
-const teaserTitle = document.getElementById('teaser-title');
+const teaserTitle = document.getElementById('teaser-title'); // safe if null
 const teaserWrap  = document.getElementById('teaser-video-wrap');
 
 // Use first function with a valid YouTube ID as teaser
@@ -36,7 +36,7 @@ const teaserYtId = CONFIG.teaserVideoId && CONFIG.teaserVideoId !== 'YOUR_YOUTUB
   : (CONFIG.functions.find(f => f.youtubeVideoId && f.youtubeVideoId !== 'YOUTUBE_VIDEO_ID') || {}).youtubeVideoId;
 
 if (teaserYtId) {
-  teaserTitle.textContent = `${CONFIG.brideName} & ${CONFIG.groomName}`;
+  if (teaserTitle) teaserTitle.textContent = `${CONFIG.brideName} & ${CONFIG.groomName}`;
   teaserWrap.innerHTML = `
     <iframe
       src="https://www.youtube.com/embed/${teaserYtId}?rel=0&modestbranding=1&iv_load_policy=3&disablekb=0&color=white&showinfo=0"
