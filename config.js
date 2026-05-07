@@ -69,21 +69,6 @@ const CONFIG = {
       ]
     },
     {
-      id: "mehendi",
-      name: "Mehendi",
-      emoji: "🌸",
-      youtubeVideoId: "1okhf7Wl5hM",
-      driveFolderId: "1AC3FeT2IvNwpbAgc4kKG7RqwabPbEdOD",
-      featuredPhotoIds: [
-        "1OMRBOn-2kCgmyo7u8-9kBEQtpS-5C7-H",
-        "1HOrJAIVGQHjVQuScwE7ip3KQiC8ZH_sv",
-        "1wZm6Y1DssVKaopwAo_shp27ZXXdTMYuP",
-        "1VtwpKed9aHB5mvFRdlgW7MvJmBV8mLg_",
-        "1rhtargDB6GaMtULllF5eZr5P1ki4YI5p",
-        "1267liV3RPdvGD9_RHQvqHJOpofA1zIgp",
-      ]
-    },
-    {
       id: "bhaat",
       name: "Bhaat",
       emoji: "📷",
@@ -96,6 +81,21 @@ const CONFIG = {
         "1oCqthODCb6GEGPKr0AErEXepKdmrmVNe",
         "14n-cOBTMumTAxm1JUqnX1029XUeANRVY",
         "1rx87uRR62YBEElWRZb0jM-ljh2NhTM1C"
+      ]
+    },
+    {
+      id: "mehendi",
+      name: "Mehendi",
+      emoji: "🌸",
+      youtubeVideoId: "1okhf7Wl5hM",
+      driveFolderId: "1AC3FeT2IvNwpbAgc4kKG7RqwabPbEdOD",
+      featuredPhotoIds: [
+        "1OMRBOn-2kCgmyo7u8-9kBEQtpS-5C7-H",
+        "1HOrJAIVGQHjVQuScwE7ip3KQiC8ZH_sv",
+        "1wZm6Y1DssVKaopwAo_shp27ZXXdTMYuP",
+        "1267liV3RPdvGD9_RHQvqHJOpofA1zIgp",
+        "1rhtargDB6GaMtULllF5eZr5P1ki4YI5p",
+        "1PrEjCisIvODK3hIgPGt3_6KlRdGoeBMw",
       ]
     }
   ]
