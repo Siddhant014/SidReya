@@ -89,6 +89,8 @@ function showLb(i) {
   lbIndex = (i + lbPhotos.length) % lbPhotos.length;
   lbImg.src = lbPhotos[lbIndex];
   lbCounter.textContent = `${lbIndex + 1} / ${lbPhotos.length}`;
+  const dl = document.getElementById('lb-download');
+  if (dl) dl.href = lbPhotos[lbIndex];
 }
 function closeLightbox() {
   lightbox.classList.remove('open');

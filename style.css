@@ -603,6 +603,19 @@ a { text-decoration: none; color: inherit; }
 }
 #lb-close:hover { opacity: 1; }
 
+#lb-download {
+  position: absolute;
+  top: 1rem;
+  right: 3.5rem;
+  color: #fff;
+  font-size: 1.2rem;
+  opacity: 0.5;
+  transition: opacity var(--transition);
+  cursor: pointer;
+  text-decoration: none;
+}
+#lb-download:hover { opacity: 1; }
+
 #lb-counter {
   position: absolute;
   bottom: 1.5rem;
