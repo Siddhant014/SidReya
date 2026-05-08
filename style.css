@@ -326,7 +326,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 .section-emoji {
-  font-size: 1.2em;
+  font-size: 0.75em;
   image-rendering: crisp-edges;
 }
 
@@ -704,7 +704,7 @@ a { text-decoration: none; color: inherit; }
   text-align: center;
   letter-spacing: 0.05em;
 }
-
+.fn-title { font-size: clamp(1.6rem, 4vw, 2.8rem); }
 /* ── FEATURED GRID ── */
 .featured-grid {
   display: grid;
