@@ -102,7 +102,7 @@ const CONFIG = {
       id: "geet",
       name: "Geet",
       emoji: "✨",
-      youtubeVideoId: "NA",
+      youtubeVideoId: "YOUTUBE_VIDEO_ID",
       driveFolderId: "1_7QQeqZR6GA50XMDHyceCI0-azItBQ9Q",
       featuredPhotoIds: [
         "1uQ1KEFr1pZd0SSxBE11FsYab-T9dKSK5",
